@@ -1,0 +1,241 @@
+  :root {
+    --white-color: #fff;
+  }
+
+  .header_container {
+    padding-bottom: 25px;
+    /* height: 754px; */
+    width: 100%;
+    background: url('/assets/images/adsBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header-top_container {
+    padding-top: 38px;
+  }
+
+  .header-top_content {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+
+  .header-top-left, .header-top-right {
+    display: inline-flex;
+  }
+  .header-top-right {
+    margin-left: auto;
+  }
+  .user {
+    color: rgba(255, 255, 255, 0.849);
+    margin-left: 30px;
+    font-size: 23px;
+  }
+  .header-top-right {
+    align-items: center;
+  }
+
+  .header-menu-icon {
+    color: var(--white-color);
+    margin-right: 47px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .logo-block {
+    width: 200px;
+    height: 33px;
+  }
+
+  .logo-block img {
+    width: 100%;
+  }
+
+  .header-search-form {
+    position: relative;
+    margin-right: 20px;
+  }
+
+  .search-input {
+    height: 45px;
+    width: 370px;
+    background: #ffffff44 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    border: none;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    font: normal normal normal 14px;
+    color: white;
+    padding-left: 30px;
+    outline: none;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+  }
+
+  .search-submit {
+    position: absolute;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    right: 0;
+    top: 0;
+  }
+
+  .header-search-btn {
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+  }
+
+  .header-cart {
+    cursor: pointer;
+    position: relative;
+  }
+
+  .cart-quantity {
+    font-size: 13px;
+    top: -9px;
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -9px;
+  }
+
+  .ads-banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+  }
+  .header_ads_img, .header_ads_text {
+    width: 35%;
+  }
+
+  .adsImg {
+    width: 100%;
+  }
+
+  .header_ads_text h1 {
+    text-align: left;
+    font: normal normal 900 71px;
+    letter-spacing: 1.73px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .header_ads_text p {
+    text-align: left;
+    font: normal normal normal 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    line-height: 25px;
+  }
+
+  .side_menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 391px;
+    height: 754px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 10;
+    text-align: left;
+    padding: 37px;
+    box-sizing: border-box;
+  }
+
+  .close-menu-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 20px;
+    color: #222222;
+  }
+
+  .menu-categories, .categories-child-menu {
+    padding: 0;
+    margin: 0
+  }
+
+  .categories-child-menu {
+    display: none;
+  }
+
+  .menu-categories-item.active .categories-child-menu {
+    display: block;
+  }
+
+  .menu-categories-item {
+    text-align: left;
+    font: normal normal bold 26px/26px Lato;
+    letter-spacing: 1.95px;
+    color: #222222;
+    opacity: 1;
+    margin-bottom: 31px;
+  }
+
+  .menu-categories-item.active .horizontal {
+    left: -37px;
+    top: 16px;
+    position: absolute;
+    display: inline-block;
+    width: 55px;
+    height: 0px;
+    border: 2px solid var(--unnamed-color-f04800);
+    border: 2px solid #F04800;
+    opacity: 1;
+  }
+
+  .menu-categories-item.active {
+    text-align: left;
+    font: normal normal bold 26px/26px Lato;
+    letter-spacing: 1.95px;
+    color: #F04800;
+    opacity: 1;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  .menu-categories-item.active .menu-title {
+    padding-left: 32px;
+  }
+
+  .categories-child-item {
+    padding-bottom: 31px;
+    text-align: left;
+    font: normal normal 600 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #222222;
+    text-transform: capitalize;
+    opacity: 1;
+    line-height: 19px
+  }
+
+  .categories-child-menu {
+    padding-top: 35px;
+  }
+
+  .side_menu-logo {
+    position: absolute;
+  }
