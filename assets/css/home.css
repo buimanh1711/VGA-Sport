@@ -1,0 +1,383 @@
+.collection_block img {
+  width: 100%;
+}
+
+.collection {
+  margin-top: 63px;
+}
+
+.ads_categories {
+  margin-top: 45px;
+}
+
+.ads_home-block img, .category1_home-block img, .category2_home-block img {
+  width: 100%;
+}
+
+.ads_home-block {
+  margin-bottom: 30px;
+}
+
+.ads_home-block img {
+  height: 332px;
+  object-fit: cover;
+}
+
+.category1_home-block img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.category2_home-block img {
+  width: 100%;
+  height: 763px;
+  object-fit: cover;
+}
+
+.flash_sale {
+  margin-top: 66px;
+}
+
+.sale-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sale-header .title {
+  width: 320px;
+  padding: 24px;
+  background: #F04800 0% 0% no-repeat padding-box;
+  border-radius: 38px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal 24px Lato;
+  letter-spacing: 0.82px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.sale-header .dots {
+  width: auto;
+}
+
+.sale-header .dots img {
+  width: 100%;
+}
+
+.sale-categories-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 36px;
+  justify-content: center;
+}
+
+.sale-categories-list li {
+  margin: auto 22px;
+  font: normal normal 600 18px/22px Lato;
+  letter-spacing: 0.61px;
+  color: #222222;
+  text-transform: capitalize;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.sale-categories-list li:hover {
+  color: #F04800;
+  animation: ease-in 0.5s;
+}
+
+.sale-categories-list li.active {
+  color: #F04800;
+}
+
+.sale-items {
+  margin-top: 45px;
+}
+
+.sale-item-container {
+  margin-bottom: 35px;
+}
+
+.sale-item-container {
+  padding: 25px 15px;
+  box-shadow: 0px 0px 5px #0000001A;
+  display: flex;
+  align-items: center;
+}
+
+.hot-items .sale-item-container {
+  display: block;
+  padding: 12px
+}
+
+.item-image-container {
+  display: block;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  cursor: pointer
+}
+
+.hot-items .item-image-container {
+  margin: 0 auto;
+}
+
+.sale-item-thumb:hover img {
+  transform: scale(1.2);
+  animation: all 0.2s;
+  transition: .3s ease;
+}
+
+.sale-item-thumb img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.sale-item-info {
+  margin-left: 14px;
+  padding: 14px 0px;
+}
+
+.hot-items .sale-item-info {
+  margin-left: 0px;
+  padding-bottom: 0;
+}
+
+.sale-price-title a {
+  text-align: left;
+  font: normal normal 600 14px Lato;
+  letter-spacing: 0.51px;
+  color: #222222;
+  text-transform: capitalize;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.sale-price-box {
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+}
+
+.hot-items .sale-price-box {
+  margin: 12px 0px;
+}
+
+.sale-price-box .price {
+  padding: 8px 10px;
+  padding-right: 12px;
+  position: relative;
+  background: #F04800;
+  text-align: left;
+  font: normal normal 12px Lato;
+  letter-spacing: 0.54px;
+  color: #FFFFFF;
+}
+
+.sale-price-box .price::before {
+  content: '';
+  position: absolute;
+  border: 9px solid transparent;
+  top: -14px;
+  right: -9px;
+  border-bottom: 44px solid white;
+}
+
+.old-price {
+  margin-left: 4px;
+  text-align: left;
+  text-decoration: line-through;
+  font: normal normal 12px Lato;
+  letter-spacing: 0.48px;
+  color: #B5B5B5;
+}
+
+.sale-price-rate {
+  color: rgb(209, 223, 18);
+  margin-top: 17px;
+}
+
+.hot-items .sale-price-rate {
+  margin: 8px 0px;
+}
+
+.catalogs1 img {
+  width: 100%;
+}
+
+.catalogs2 {
+  margin-top: 63px;
+}
+
+.catalogs2 .hot-title {
+  text-align: center;
+  font: normal normal bold 30px/42px Lato;
+  letter-spacing: 1.02px;
+  color: #F04800;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.catalogs2 .hot-items {
+  margin-top: 45px;
+}
+
+.catalogs2 .see_more, .catalogs3 .see_more {
+  text-align: center;
+}
+
+.catalogs3 .see_more {
+  margin-top: 45px;
+}
+
+.catalogs2 .see_more-link, .catalogs3 .see_more-link {
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal 16px Lato;
+  letter-spacing: 0px;
+  color: #2077B7;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.home_ads_1 {
+  margin-top: 60px;
+  height: 600px;
+}
+
+.home_ads_1 img {
+  width: 100%;
+}
+
+.home_ads_1 .block_2 {
+  margin-top: 45px;
+}
+
+.block2-container {
+  position: relative;
+}
+
+.home_ads_1 .ads_1 {
+  position: absolute;
+  width: 30%;
+  margin-bottom: 32px;
+  background: #32EAA1;
+  height: 330px;
+  z-index: 3;
+  left: 0;
+}
+
+.home_ads_1 .ads_1::before {
+  content: '';
+  width: 69px;
+  height: 406px;
+  position: absolute;
+  top: 0px;
+  right: -52px;
+  z-index: 1;
+  border: 51px solid transparent;
+  border-top: #32EAA1 330px solid;
+}
+
+.home_ads_1 .ads_2 {
+  right: 0;
+  position: absolute;
+  width: 70%;
+  margin-top: 32px;
+}
+
+.home_ads_1 .ads_2::before {
+  content: '';
+  position: absolute;
+  top: -31px;
+  width: 50px;
+  height: 379px;
+  background: white;
+  z-index: 1;
+  transform: rotate(9deg);
+}
+
+.home_ads_1 .ads_1 a {
+  position: absolute;
+  z-index: 4;
+  text-align: left;
+  font: normal normal normal 32px Lobster;
+  width: 80%;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+  letter-spacing: 1.46px;
+  color: #FFFFFF;
+}
+
+.home_ads_1 .ads_1 img {
+  width: 80%;
+  display: block;
+  margin: 12px 0px;
+}
+
+.home_ads_1 .ads_1 a:hover {
+  color: white;
+}
+
+.catalogs3 {
+  margin-top: 32px;
+}
+
+.catalogs3 .sale-header {
+  font: normal normal bold 30px/42px Lato;
+  letter-spacing: 1.02px;
+  color: #F04800;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.news_items {
+  margin-top: 45px;
+}
+
+.catalogs3 .new_items_block {}
+
+.news_items-container {}
+
+.news_items-thumb img {
+  width: 100%;
+}
+
+.news_items-img-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.news_items-info {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.news_items-date {
+  margin-right: 14px;
+}
+
+.news_items-date span {
+  background: #F04800;
+  padding: 12px;
+  border-radius: 4px;
+  color: white;
+  font: normal normal 16px/29px Lato;
+  letter-spacing: 0.54px;
+}
+
+.news_items-title a {
+  text-align: left;
+  font: normal normal bold 14px Lato;
+  text-decoration: none;
+  letter-spacing: 0.61px;
+  color: #222222;
+}

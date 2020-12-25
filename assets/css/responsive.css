@@ -4,7 +4,7 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {}
 
-@media (min-width: 1368px) {
+@media (min-width: 1561px) {
   .header-top_content {
     max-width: 1140px;
   }
@@ -19,6 +19,43 @@
 @media(max-width: 1199.98px) {
   .header-top_content {
     max-width: 960px;
+  }
+  .home_ads_1 {
+    height: auto;
+  }
+  
+  .home_ads_1 .block_2 {
+    margin-top: 0px;
+  }
+  .block2-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .home_ads_1 .ads_2, .home_ads_1 .ads_1 {
+    width: 100%;
+    position: static;
+  }
+  .home_ads_1 .ads_2::before, .home_ads_1 .ads_1::before {
+    display: none;
+  }
+  .home_ads_1 .ads_1 {
+    position: relative;
+    order: 2;
+    height: auto;
+    background: none;
+  }
+  .home_ads_1 .ads_1 a {
+    position: static;
+    color: #222222;
+  }
+  .home_ads_1 .ads_1 img {
+    width: 30%;
+    display: block;
+    margin: 12px 0px;
+  }
+  .home_ads_1 .ads_1 {
+    margin-top: 32px;
+    order: 1;
   }
 }
 

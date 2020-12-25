@@ -27,14 +27,20 @@
   .header-top-left, .header-top-right {
     display: inline-flex;
   }
+
   .header-top-right {
     margin-left: auto;
   }
+
   .user {
-    color: rgba(255, 255, 255, 0.849);
     margin-left: 30px;
     font-size: 23px;
   }
+
+  .user a {
+    color: rgba(255, 255, 255, 0.849);
+  }
+
   .header-top-right {
     align-items: center;
   }
@@ -125,6 +131,7 @@
     align-items: center;
     margin-top: 45px;
   }
+
   .header_ads_img, .header_ads_text {
     width: 35%;
   }
