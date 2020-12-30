@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/cc8d84a666.js" crossorigin="anonymous"></script>
+  <title hover-orange>VGA Sport</title hover-orange>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href='./assets/css/main.css' type='text/css' rel="stylesheet" />
+  <link href='./assets/css/header.css' type='text/css' rel="stylesheet" />
+  <link href='./assets/css/footer.css' type='text/css' rel="stylesheet" />
+  <link href='./assets/css/product.css' type='text/css' rel="stylesheet" />
+  <link href='./assets/css/home.css' type='text/css' rel="stylesheet" />
+  <link href='./assets/css/responsive.css' type='text/css' rel="stylesheet" />
+  <link href='./assets/css/responsive_lib.css' type='text/css' rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="overlay" style='display: none'>
+
+  </div>
+  <div class="side_menu" style='display: none'>
+    <span class='close-menu-btn'>
+      <i class="fas fa-times"></i>
+    </span>
+    <ul class='menu-categories'>
+      <li class='menu-categories-item'>
+        <span class='horizontal'></span>
+        <span class='menu-title hover-orange'>
+          Sản phẩm nữ
+        </span>
+        <ul class='categories-child-menu'>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+        </ul>
+      </li>
+      <span class='horizontal'></span>
+      <li class='menu-categories-item  active'>
+        <span class='horizontal'></span>
+        <span class='menu-title hover-orange'>
+          Sản phẩm nữ
+        </span>
+        <ul class='categories-child-menu'>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+        </ul>
+      </li>
+      <li class='menu-categories-item'>
+        <span class='horizontal'></span>
+
+        <span class='menu-title hover-orange'>
+          Sản phẩm nữ
+        </span>
+        <ul class='categories-child-menu'>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+        </ul>
+      </li>
+      <li class='menu-categories-item'>
+        <span class='horizontal'></span>
+        <span class='menu-title hover-orange'>
+          Sản phẩm nữ
+        </span>
+        <ul class='categories-child-menu'>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+          <li class='categories-child-item'>
+            Áo Thể thao
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="side_filter" style='display: none'>
+    <div class="side_filter-container">
+      <div class="filter_type-mb categories">
+        <div class="filter_type-mb-head">
+          <span>Loại</span>
+          <hr />
+        </div>
+        <div class="categories-container">
+          <div class="row category-list">
+            <div class="col-6 form-check restyle-form-check">
+              <input class="form-check-input" type="checkbox" value="" id="">
+              <label class="form-check-label" for="">
+                Áo thể theo
+              </label>
+            </div>
+            <div class="col-6 form-check restyle-form-check">
+              <input class="form-check-input" type="checkbox" value="" id="">
+              <label class="form-check-label" for="">
+                Áo thể theo
+              </label>
+            </div>
+            <div class="col-6 form-check restyle-form-check">
+              <input class="form-check-input" type="checkbox" value="" id="">
+              <label class="form-check-label" for="">
+                Áo thể theo
+              </label>
+            </div>
+            <div class="col-6 form-check restyle-form-check">
+              <input class="form-check-input" type="checkbox" value="" id="">
+              <label class="form-check-label" for="">
+                Áo thể theo
+              </label>
+            </div>
+            <div class="col-6 form-check restyle-form-check">
+              <input class="form-check-input" type="checkbox" value="" id="">
+              <label class="form-check-label" for="">
+                Áo thể theo
+              </label>
+            </div>
+            <div class="col-6 form-check restyle-form-check">
+              <input class="form-check-input" type="checkbox" value="" id="">
+              <label class="form-check-label" for="">
+                Áo thể theo
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter_type-mb price">
+        <div class="filter_type-mb-head">
+          <span>Giá</span>
+          <hr />
+        </div>
+        <div class="price-container">
+          <input type="range" class="form-range restyle-range" id="customRange1">
+          <span class='range'>0đ - 160000000đ </span>
+        </div>
+      </div>
+
+      <div class="filter_type-mb size">
+        <div class="filter_type-mb-head">
+          <span>Size</span>
+          <hr />
+        </div>
+        <div class="size-container">
+          <ul>
+            <li class='input-active'>S</li>
+            <li>M</li>
+            <li>L</li>
+            <li>XL</li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="filter_type-mb color">
+        <div class="filter_type-mb-head">
+          <span>Màu</span>
+          <hr />
+        </div>
+        <div class="row color-container">
+          <div class="col-6 form-check restyle-form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="">
+              Xanh
+            </label>
+          </div>
+          <div class="col-6 form-check restyle-form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="">
+              Đỏ
+            </label>
+          </div>
+          <div class="col-6 form-check restyle-form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="">
+              Tím
+            </label>
+          </div>
+          <div class="col-6 form-check restyle-form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="">
+              Trắng
+            </label>
+          </div>
+          <div class="col-6 form-check restyle-form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="">
+              Vàng
+            </label>
+          </div>
+          <div class="col-6 form-check restyle-form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="">
+              Hồng
+            </label>
+          </div>
+          <div class="col-6 form-check restyle-form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="">
+              Đen
+            </label>
+          </div>
+          <div class="col-6 form-check restyle-form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="">
+              Xám
+            </label>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="function">
+        <span class='side_filter-btn'>Áp dụng</span>
+        <span class='side_filter-btn'>Đóng</span>
+
+      </div>
+    </div>
+  </div>
+  <div class="app">
+    <div class="header home" style='display: block'>
+      <div class="header_container home">
+        <div class="header-top_container home">
+          <div class=" container header-top_content  home">
+
+            <div class="menu-btn-block home">
+              <a class='menu-btn-container home'>
+                <i class="fas fa-bars header-menu-icon home"></i>
+              </a>
+            </div>
+            <div class='logo-block home'>
+              <a href='/'>
+                <img class='header-logo home' src='./assets/images/logo3.png' />
+              </a>
+            </div>
+            <div class="header-top-right home">
+              <div class="header-search home">
+                <form action="/search" class="header-search-form home">
+                  <input class='search-input' placeholder="Tìm kiếm..." name='byname' required />
+                  <div class='search-submit home'>
+                    <button class='header-search-btn home'>
+                      <img src="./assets/icon/Icon feather-search.png" />
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="header-cart home">
+                <div class='cart-quantity home'>
+                  10
+                </div>
+                <a>
+                  <img class='header-logo home' src='./assets/icon/Icon feather-shopping-cart.png' />
+                </a>
+              </div>
+
+            </div>
+            <div class="header-cart responsive">
+              <div class='cart-quantity'>
+                10
+              </div>
+              <a>
+                <img className='header-logo' src='./assets/icon/Icon feather-shopping-cart.png' />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="breadcumb">
+      <div class="breadcumb-info">
+        <h1 class='title'>
+          Thời trang nam
+        </h1>
+        <div class="links">
+          <a href="">
+            <span class="home">
+              <i class="fas fa-home"></i>
+              Trang chủ
+            </span>
+          </a>
+          <a href="">
+            <span class="home">
+              <i class="fas fa-angle-right"></i>
+              Thời trang nam
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="body product">
+      <div class="container">
+        <div class="row">
+          <div class="my_col-5 md-hide">
+            <div class="filter-container">
+              <div class="categories filter">
+                <div class="filter-head">
+                  <h1 class="title">
+                    <i class="fas fa-bars icon"></i>
+                    Danh Mục Sản Phẩm
+                  </h1>
+                  <div class="border">
+                    <div class="border2"></div>
+                  </div>
+                </div>
+                <ul class='filter-menu'>
+                  <li class="filter-value active-orange hover-orange">
+                    Áo thể thao
+                  </li>
+                  <li class="filter-value hover-orange">
+                    Áo thể thao
+                  </li>
+                  <li class="filter-value hover-orange">
+                    Áo thể thao
+                  </li>
+                  <li class="filter-value hover-orange">
+                    Áo thể thao
+                  </li>
+                  <li class="filter-value hover-orange">
+                    Áo thể thao
+                  </li>
+                </ul>
+              </div>
+              <div class="type filter">
+                <div class="filter-head">
+                  <h1 class="title">
+                    <i class="fas fa-bars icon"></i>
+                    Danh Mục Sản Phẩm
+                  </h1>
+                  <div class="border">
+                    <div class="border2"></div>
+                  </div>
+                </div>
+                <div class="filter-type price">
+                  <h2 class='title'>
+                    Mức giá
+                  </h2>
+                  <span class='range'>0đ - 160000000đ </span>
+                  <input type="range" class="form-range restyle-range" id="customRange1">
+                </div>
+                <div class="filter-type size">
+                  <h2 class='title'>
+                    Kích cỡ sản phẩm
+                  </h2>
+                  <div class="form-check restyle-form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="">
+                    <label class="form-check-label" for="">
+                      XL
+                    </label>
+                  </div>
+                  <div class="form-check restyle-form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="">
+                    <label class="form-check-label" for="">
+                      M
+                    </label>
+                  </div>
+                  <div class="form-check restyle-form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="">
+                    <label class="form-check-label" for="">
+                      S
+                    </label>
+                  </div>
+                  <div class="form-check restyle-form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="">
+                    <label class="form-check-label" for="">
+                      L
+                    </label>
+                  </div>
+                </div>
+                <div class="filter-type color">
+                  <h2 class='title'>
+                    Màu sắc sản phẩm
+                  </h2>
+                  <div class="row color-container">
+                    <div class="col-6 form-check restyle-form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="">
+                      <label class="form-check-label" for="">
+                        Xanh
+                      </label>
+                    </div>
+                    <div class="col-6 form-check restyle-form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="">
+                      <label class="form-check-label" for="">
+                        Đỏ
+                      </label>
+                    </div>
+                    <div class="col-6 form-check restyle-form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="">
+                      <label class="form-check-label" for="">
+                        Tím
+                      </label>
+                    </div>
+                    <div class="col-6 form-check restyle-form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="">
+                      <label class="form-check-label" for="">
+                        Trắng
+                      </label>
+                    </div>
+                    <div class="col-6 form-check restyle-form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="">
+                      <label class="form-check-label" for="">
+                        Vàng
+                      </label>
+                    </div>
+                    <div class="col-6 form-check restyle-form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="">
+                      <label class="form-check-label" for="">
+                        Hồng
+                      </label>
+                    </div>
+                    <div class="col-6 form-check restyle-form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="">
+                      <label class="form-check-label" for="">
+                        Đen
+                      </label>
+                    </div>
+                    <div class="col-6 form-check restyle-form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="">
+                      <label class="form-check-label" for="">
+                        Xám
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="my_col-4 my_col-md-100">
+            <div class="list-head">
+              <div class="quantities md-hide">
+                <p>
+                  Hiển thị: <span class='active-orange product-qty'>12/134</span> sản phẩm
+                </p>
+              </div>
+
+              <div class="filter-mb md-appear">
+                <i class="fas fa-filter"></i>
+                <span>
+                  Bộ lọc sản phẩm
+                </span>
+              </div>
+
+              <div class="sort">
+                <span class="sort-value">
+                  Giá: thấp đến cao
+                  <i class="fas fa-angle-down"></i>
+                </span>
+              </div>
+            </div>
+            <div class="product-list-container">
+              <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+                  <div class="sale-item-container">
+                    <div class="sale-item-thumb">
+                      <a class='item-image-container'>
+                        <img src='./assets/images/product.png' />
+                      </a>
+                    </div>
+                    <div class="sale-item-info">
+                      <div class='sale-price-box'>
+                        <div class="price">
+                          100,000đ
+                        </div>
+                        <span class="old-price">
+                          100,000đ
+                        </span>
+                      </div>
+                      <div class="sale-price-title hover-orange">
+                        <a>
+                          <span>
+                            Giải quyết khó khăn cùng doanh nghiệp với thế
+                          </span>
+                        </a>
+                      </div>
+                      <div class="sale-price-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center floatleft">
+            <li class="page-item">
+              <a class="page-link "><i class="fas fa-chevron-left icon"></i></a>
+            </li>
+            <li class="page-item"><a class="page-link page-active" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container footer_container">
+        <div class="footer-content">
+          <ul class="row footer-menu">
+            <li class='col-2 footer-menu-item'>
+              <a class='hover-orange' href="">
+                Chính sách đổi trả
+              </a>
+            </li>
+            <li class='col-2 footer-menu-item'>
+              <a class='hover-orange' href="">
+                Chính sách đổi trả
+              </a>
+            </li>
+            <li class='col-2 footer-menu-item'>
+              <a class='hover-orange' href="">
+                Chính sách đổi trả
+              </a>
+            </li>
+            <li class='col-2 footer-menu-item' style='border: none'>
+              <a class='hover-orange' href="">
+                Chính sách đổi trả
+              </a>
+            </li>
+          </ul>
+          <div class="footer-logo-block">
+            <a href="">
+              <img src="./assets/images/logo2.png" alt="">
+            </a>
+          </div>
+          <div class="footer-networks">
+            <ul class='network-list'>
+              <li class='network-item'>
+                <a href="">
+                  <img src="./assets/icon/fb.png" alt="">
+                </a>
+              </li>
+              <li class='network-item'>
+                <a href="">
+                  <img src="./assets/icon/ig.png" alt="">
+                </a>
+              </li>
+              <li class='network-item'>
+                <a href="">
+                  <img src="./assets/icon/zl.png" alt="">
+                </a>
+              </li>
+              <li class='network-item'>
+                <a href="">
+                  <img src="./assets/icon/mail.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <div class="site-info">
+            <p>Copyright © 2020 VGA Soft.</p>
+            <p>MST: 0314057896 Cấp ngày 11 tháng 10 năm 2016 tại Sở Kế Hoạch Đầu Tư TPHCM</p>
+            <p>Công ty TNHH Bán Lẻ NBP VN , 41 Nguyễn Thị Minh Khai, P. Bến Nghé, Q.1, TP.HCM, Việt Nam</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

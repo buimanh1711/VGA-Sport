@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Lato';
   src: url('../font/Font-lato/Lato-Regular_2.ttf')/* IE9 Compat Modes */
-  
 }
 
 body {
@@ -13,6 +12,97 @@ body {
 .app {
   width: 100%;
 }
+
 ul {
   list-style-type: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+.breadcumb {
+  margin-top: 70px;
+  height: 250px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.582)), url('../images/breadcumb.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.breadcumb-info {
+  margin: auto;
+  text-align: center;
+}
+
+.breadcumb .title {
+  text-align: center;
+  font: normal normal 36px Lato;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.breadcumb .links {
+  font: normal normal 14px/25px Lato;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.breadcumb a {
+  color: white;
+}
+
+.hover-orange:hover {
+  color: #F04800;
+  transition: ease-in 0.2s;
+}
+
+.active-orange {
+  color: #F04800 !important;
+}
+
+a {
+  cursor: pointer;
+  color: #222222;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(27, 27, 27, 0.171);
+  z-index: 8;
+}
+
+.page-item a {
+  background: white !important;
+  color: black;
+  border: none;
+  margin: 0px 1px;
+  border-radius: 3px;
+}
+a.page-link {
+  border-radius: 50% !important;
+}
+.page-item i {
+  color: black !important
+}
+
+a.page-active {
+  background: #F04800 !important;
+  color: white;
+}
+.floatleft {
+  justify-content: flex-end !important;
+}
+
+.floatright {
+  justify-content: flex-start !important;
 }

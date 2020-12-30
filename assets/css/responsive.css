@@ -4,13 +4,16 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {}
 
-@media (min-width: 1561px) {
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px !important;
+    }
     .header-top_content {
-        max-width: 1140px;
+        max-width: 1300px;
     }
 }
 
-@media (max-width: 1368px) {
+@media (max-width: 1200px) {
     .header-top_content {
         max-width: 1140px;
     }
@@ -30,13 +33,11 @@
         display: flex;
         flex-direction: column;
     }
-    .home_ads_1 .ads_2,
-    .home_ads_1 .ads_1 {
+    .home_ads_1 .ads_2, .home_ads_1 .ads_1 {
         width: 100%;
         position: static;
     }
-    .home_ads_1 .ads_2::before,
-    .home_ads_1 .ads_1::before {
+    .home_ads_1 .ads_2::before, .home_ads_1 .ads_1::before {
         display: none;
     }
     .home_ads_1 .ads_1 {
@@ -58,15 +59,51 @@
         margin-top: 32px;
         order: 1;
     }
+    .product.detail .product-info-top {
+        flex-wrap: wrap;
+    }
+    .product.detail .infomation {
+        width: 100%;
+    }
+    .product.detail .image_list {
+        display: none;
+    }
+
+    .product.detail .main_image {
+        width: 100%;
+    }
 }
 
 @media(max-width: 991px) {
+    .product-info-bottom .tabs li {
+        font-size: 12px;
+        padding: 6px 0px;
+    }
+    .side_filter {
+        overflow: scroll;
+    }
+    .side_filter::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        background: rgba(0, 0, 0, 0.082);
+        border-radius: 10px;
+    }
+    .side_filter::-webkit-scrollbar-corner {
+        background-color: rgba(0, 0, 0, 0.082);
+    }
+    .side_filter::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        height: 5px;
+    }
+    .side_filter::-webkit-scrollbar-track {
+        background-color: #0000000c;
+        border-radius: 10px;
+    }
     .header-menu-icon {
         margin-right: 0;
     }
-    .flash_sale .title,
-    .catalogs2 .hot-title,
-    .catalogs3 .hot-title {
+    .flash_sale .title, .catalogs2 .hot-title, .catalogs3 .hot-title {
         font-size: 16px;
     }
     .header-top_content {
@@ -110,9 +147,65 @@
         height: auto;
         object-fit: cover;
     }
+    .header-cart {
+        display: none;
+    }
+    .header-cart.responsive {
+        display: block;
+    }
+    .sort {
+        height: 42px;
+        width: 173px;
+    }
+    .cart .total-cart {
+        margin-top: 45px;
+    }
+    .cart .voucher {
+        justify-content: center;
+    }
+    .cart .checkout div {
+        width: 100%;
+        flex-shrink: 0;
+    }
+    .cart .checkout {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cart .checkout-btn {
+        margin-bottom: 0;
+        margin-left: auto;
+    }
+}
+
+@media(min-width: 992px) {
+    .article-list ul::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        background: rgba(0, 0, 0, 0.082);
+        border-radius: 10px;
+    }
+    .article-list ul::-webkit-scrollbar-corner {
+        background-color: rgba(0, 0, 0, 0.082);
+    }
+    .article-list ul::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        height: 5px;
+    }
+    .article-list ul::-webkit-scrollbar-track {
+        background-color: #0000000c;
+        border-radius: 10px;
+    }
 }
 
 @media(max-width: 767px) {
+    .detail-info-bottom.combine {
+        padding-top: 0;
+    }
+    .product-info-bottom .tabs li {
+        font-size: 8px;
+        padding: 0px;
+    }
     .header-top_content {
         max-width: 540px;
     }
@@ -125,12 +218,20 @@
     .catalogs1-top {
         margin-bottom: 32px;
     }
-}
+    .product.detail .action {
+        flex-wrap: wrap;
+    }
+    .product.detail .action .action-btn {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 12px;
+        text-align: center;
+    }
+    
+
 
 @media(max-width: 575px) {
-    .flash_sale .title,
-    .catalogs2 .hot-title,
-    .catalogs3 .hot-title {
+    .flash_sale .title, .catalogs2 .hot-title, .catalogs3 .hot-title {
         font-size: 12px;
     }
     .header-top_container {
@@ -173,7 +274,7 @@
         height: 32px;
         right: -6px;
     }
-     ::-webkit-input-placeholder {
+    ::-webkit-input-placeholder {
         overflow: hidden;
     }
     .ads_home-text h1 {
@@ -185,9 +286,7 @@
 }
 
 @media (max-width: 420px) {
-    .flash_sale .title,
-    .catalogs2 .hot-title,
-    .catalogs3 .hot-title {
+    .flash_sale .title, .catalogs2 .hot-title, .catalogs3 .hot-title {
         font-size: 8px;
         padding: 4px
     }

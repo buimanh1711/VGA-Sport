@@ -13,4 +13,39 @@
         width: 33.33333333%;
         padding: 0px 15px;
     }
+    
+}
+
+@media (max-width: 991px) {
+    .my_col-md-3 {
+        width: 33.33333333%;
+        padding: 0px 15px;
+    }
+    .my_col-md-100 {
+        width: 100%;
+    }
+    .md-hide {
+        display: none;
+    }
+
+    .md-appear {
+        display: block
+    }
+}
+
+@media (max-width: 767px) {
+    .my_col-sm-2 {
+        width: 50%;
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .my_col-xm-12 {
+        width: 100%;
+        padding: 0px 15px;
+    }
+}
+.hide {
+    display: none;
 }
