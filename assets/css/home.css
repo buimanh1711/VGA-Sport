@@ -62,6 +62,7 @@
 
 .sale-header .dots {
     width: auto;
+    padding: 0px 8px !important;
 }
 
 .sale-header .dots img {
@@ -208,6 +209,7 @@
 }
 
 .catalogs2 .hot-title {
+    padding: 0 !important;
     text-align: center;
     font: normal normal bold 30px/42px Lato;
     letter-spacing: 1.02px;

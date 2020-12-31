@@ -27,13 +27,18 @@
     .md-hide {
         display: none;
     }
-
     .md-appear {
         display: block
     }
 }
 
+@media (max-width: 768px) {
+    .sm-hide {
+        display: none;
+    }
+}
 @media (max-width: 767px) {
+    
     .my_col-sm-2 {
         width: 50%;
         padding: 0px 15px;
