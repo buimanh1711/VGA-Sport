@@ -11,6 +11,9 @@
     .header-top_content {
         max-width: 1300px;
     }
+    .detail .categories-container.mb {
+        display: none;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -20,6 +23,65 @@
 }
 
 @media(max-width: 1199.98px) {
+    .detail .news-catalog .article-list ul {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .detail .news-catalog .article-list li {
+        width: 50%;
+        padding: 12px 18px;
+    }
+    .detail .categories-container .categories-article {
+        display: none;
+    }
+    .detail .categories-container.mb {
+        order: 1;
+    }
+    .detail .article-detail {
+        order: 2;
+    }
+    .detail .categories-container .categories-article.mb {
+        display: flex;
+    }
+    .detail .news-catalog {
+        display: block;
+    }
+    .categories-article p {
+        display: none;
+    }
+    .news .news-catalog {
+        display: none;
+    }
+    .detail .categories-container {
+        order: 3;
+    }
+    .news .categories-container{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .article-item {
+        height: 230px;
+    }
+    .article-item img {
+        height: 172px;
+        object-fit: cover;
+    }
+    .article-thumb img {
+        height: auto;
+    }
+    .news .news-container, .detail .news-container{
+        order: 2;
+    }
+    .total-rate-comments-container {
+        width: 100%;
+    }
+    .comments-list li {
+        height: auto;
+    }
+    .total-rate-container {
+        width: 100%;
+    }
     .home_ads_1 {
         margin-bottom: 0;
     }
@@ -80,6 +142,12 @@
 }
 
 @media(max-width: 991px) {
+    .header-search-form {
+        margin-right: 0px;
+    }
+    .header-search {
+        margin-right: 0px;
+    }
     .news_items-block {
         margin-bottom: 42px;
     }
@@ -162,7 +230,6 @@
     }
     .header-search {
         flex-grow: 1;
-        margin-right: 20px;
     }
     .search-input {
         width: 100%;
@@ -238,6 +305,32 @@
 }
 
 @media(max-width: 767px) {
+    .cate-article-item {
+        justify-content: center;
+    }
+    .detail .news-catalog .article-list li {
+        width: 100%;
+        padding: 12px 18px;
+    }
+    .article-item {
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .article-thumb {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 8px;
+        border-radius: 0px;
+    }
+    .article-item img {
+        height: auto;
+        object-fit: cover;
+    }
+    .article-info {
+        width: 100%;
+        padding: 12px 16px;
+    }
     .voucher button {
         padding: 12px 21px;
     }
@@ -332,6 +425,7 @@
 }
 
 @media(max-width: 575px) {
+    
     #voucher {
         background: #FFFFFF 0% 0% no-repeat padding-box;
         border: 1px solid #E1E1E1;
@@ -353,7 +447,7 @@
         margin-top: 127px;
     }
     .flash_sale .title, .catalogs2 .hot-title, .catalogs3 .hot-title {
-        font-size: 10px;
+        font-size: 16px;
     }
     .header-top_container {
         padding: 16px 20px;
@@ -407,6 +501,18 @@
 }
 
 @media (max-width: 420px) {
+    .news-cata-title h1 {
+        font-size: 14px;
+    }
+    .article-category {
+        font-size: 16px;
+    }
+    .article-title {
+        font-size: 16px;
+    }
+    .flash_sale .title, .catalogs2 .hot-title, .catalogs3 .hot-title {
+        font-size: 10px;
+    }
     .detail-filter span {
         font-size: 14px;
     }
@@ -421,10 +527,10 @@
     }
     .infomation .action button, .product.detail .action .action-btn {
         padding: 11px 0px !important
-    }    
+    }
     .infomation .quantity {
         margin-top: 28px;
-    }    
+    }
     .checkout .price {
         font-size: 20px;
     }
@@ -472,13 +578,36 @@
         margin-bottom: 22px;
     }
     .flash_sale .title, .catalogs2 .hot-title, .catalogs3 .hot-title {
-        font-size: 8px;
-        padding: 10px
+        font-size: 11px;
+        padding: 8px
     }
     .sort {
         width: 132px;
     }
     .sort span, .filter-mb span {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .flash_sale .title, .catalogs2 .hot-title, .catalogs3 .hot-title {
+        font-size: 10px;
+        padding: 8px;
+    }
+    .sale-categories-list li {
+        font-size: 12px;
+    }
+    .category-name {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 320px) {
+    .flash_sale .title, .catalogs2 .hot-title, .catalogs3 .hot-title {
+        font-size: 8px;
+        padding: 8px;
+    }
+    .sale-categories-list li {
+        margin: auto 16px;
     }
 }

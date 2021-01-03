@@ -7,7 +7,7 @@
 
 .article-thumb {
   width: 290px;
-  height: 224px;
+  /* height: 224px; */
   margin-right: 27px;
   border-radius: 10px;
   overflow: hidden;

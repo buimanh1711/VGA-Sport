@@ -17,6 +17,19 @@ ul {
   list-style-type: none;
 }
 
+.limit_2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.limit_3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
 button, a {
   cursor: pointer;
 }
